@@ -1,0 +1,18 @@
+{
+  "item.dark_souls.soul": "Soul",
+  "item.dark_souls.soul_sword": "Soul Sword",
+
+  "itemGroup.dark_souls": "Dark Souls",
+
+  "block.dark_souls.soulstone": "Soulstone",
+  "block.dark_souls.soulstone_bricks": "Soulstone Bricks",
+  "block.dark_souls.soulstone_brick_stairs": "Soulstone Brick Stairs",
+  "block.dark_souls.soulstone_brick_slab": "Soulstone Brick Slab",
+  "block.dark_souls.soulstone_brick_wall": "Soulstone Brick Wall",
+  "block.dark_souls.chiseled_soulstone": "Chiseled Soulstone",
+  "block.dark_souls.soulstone_stairs": "Soulstone Stairs",
+  "block.dark_souls.chiseled_soulstone_wall": "Chiseled Soulstone Wall",
+  "block.dark_souls.chiseled_soulstone_slab": "Chiseled Soulstone Slab",
+  "block.dark_souls.soulstone_slab": "Soulstone Slab"
+
+}

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "dark_souls:soulstone_brick_wall",
+    "dark_souls:soulstone_slab",
+    "dark_souls:chiseled_soulstone",
+    "dark_souls:soulstone_stairs",
+    "dark_souls:chiseled_soulstone",
+    "dark_souls:soulstone_brick_stairs",
+    "dark_souls:soulstone_bricks",
+    "dark_souls:soulstone"
+  ]
+}

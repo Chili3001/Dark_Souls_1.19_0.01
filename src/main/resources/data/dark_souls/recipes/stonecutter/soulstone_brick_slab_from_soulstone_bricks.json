@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "dark_souls:soulstone_bricks"
+  },
+  "result": "dark_souls:soulstone_brick_slab"
+}
