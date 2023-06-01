@@ -1,8 +1,8 @@
 package net.Chili3001.darksouls.block.custom;
 
 
-import net.Chili3001.darksouls.block.ModBlocks;
-import net.Chili3001.darksouls.block.entity.ModBlockEntities;
+
+import net.Chili3001.darksouls.block.entity.custom.ModBlockEntities;
 import net.Chili3001.darksouls.block.entity.custom.SoulWellBlockEntity;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.Level;

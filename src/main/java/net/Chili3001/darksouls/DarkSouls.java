@@ -2,7 +2,7 @@ package net.Chili3001.darksouls;
 
 import com.mojang.logging.LogUtils;
 import net.Chili3001.darksouls.block.ModBlocks;
-import net.Chili3001.darksouls.block.entity.ModBlocksEntities;
+import net.Chili3001.darksouls.block.entity.custom.ModBlockEntities;
 import net.Chili3001.darksouls.fluid.ModFluidTypes;
 import net.Chili3001.darksouls.fluid.ModFluids;
 import net.Chili3001.darksouls.item.ModItems;
@@ -30,7 +30,7 @@ public class DarkSouls {
 
         ModFluidTypes.register(modEventBus);
         ModFluids.register(modEventBus);
-        ModBlocksEntities.BLOCK_ENTITIES.register(modEventBus);
+        ModBlockEntities.BLOCK_ENTITIES.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

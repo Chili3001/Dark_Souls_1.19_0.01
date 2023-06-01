@@ -8,9 +8,13 @@ import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.state.BlockState;
 
 public class SoulWellBlockEntity extends BlockEntity {
+
+
     public SoulWellBlockEntity(BlockEntityType<?> pType, BlockPos pPos, BlockState pBlockState) {
-        super(pType, pPos, pBlockState);
+        super(ModBlockEntities.SOUL_WELL_BLOCK_ENTITY.get(), pPos, pBlockState);
     }
+    
+
 
     public void tick(){
         var pig = new Pig(EntityType.PIG, this.level);
