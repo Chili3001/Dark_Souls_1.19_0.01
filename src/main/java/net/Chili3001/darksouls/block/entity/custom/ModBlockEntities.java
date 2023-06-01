@@ -21,7 +21,7 @@ import net.minecraftforge.registries.RegistryObject;
         public static final DeferredRegister<BlockEntityType<?>> BLOCK_ENTITIES =
                 DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, DarkSouls.MOD_ID);
 
-        public static final RegistryObject<BlockEntityType<SoulWellBlockEntity>> SOUL_WELL_BLOCK_ENTITY =
+        public static final RegistryObject<SoulWellBlockEntity> SOUL_WELL_BLOCK_ENTITY =
                 BLOCK_ENTITIES.register("soul_well", () ->
                         BlockEntityType.Builder.of(SoulWellBlockEntity::new,
                                 ModBlocks.SOUL_WELL.get()).build(null));

@@ -11,7 +11,7 @@ public class SoulWellBlockEntity extends BlockEntity {
 
 
     public SoulWellBlockEntity(BlockEntityType<?> pType, BlockPos pPos, BlockState pBlockState) {
-        super(ModBlockEntities.SOUL_WELL_BLOCK_ENTITY.get(), pPos, pBlockState);
+        super(pType, pPos, pBlockState);
     }
     
 
