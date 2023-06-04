@@ -10,8 +10,8 @@ import net.minecraft.world.level.block.state.BlockState;
 public class SoulWellBlockEntity extends BlockEntity {
 
 
-    public SoulWellBlockEntity(BlockEntityType<?> pType, BlockPos pPos, BlockState pBlockState) {
-        super(pType, pPos, pBlockState);
+    public SoulWellBlockEntity(BlockPos pPos, BlockState pBlockState) {
+        super(ModBlockEntities.SOUL_WELL_BLOCK_ENTITY.get().getType(), pPos, pBlockState);
     }
     
 

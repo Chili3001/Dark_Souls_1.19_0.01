@@ -22,7 +22,7 @@ public class SoulWellBlock extends Block implements EntityBlock {
     @Nullable
     @Override
     public BlockEntity newBlockEntity(BlockPos pPos, BlockState pState) {
-        return ModBlockEntities.SOUL_WELL_BLOCK_ENTITY.get().create(pPos, pState);
+        return ModBlockEntities.SOUL_WELL_BLOCK_ENTITY.get().getType().create(pPos, pState);
     }
 
     @Nullable
